@@ -1,6 +1,6 @@
 let fs = require('fs')
-global.owner = ['6283128734012', '6288709645535'] // Letakan nomor kamu disini
-global.mods = [] // Moderator?
+global.owner = ['60102810046', '6285718146858'] // Letakan nomor kamu disini
+global.mods = [60102810046] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
@@ -18,7 +18,7 @@ global.APIs = { // API Prefix
   zeks: 'https://api.zeks.xyz',
 }
 global.APIKeys = { // APIKey nya disini
-  // 'https://website': 'apikey'
+  // 'https://website': '4ef1b11287339c1b10699ece'
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
@@ -31,7 +31,7 @@ global.APIKeys = { // APIKey nya disini
 
 // Sticker WM
 global.packname = '❤️'
-global.author = 'ariffb'
+global.author = '*͘⁴̅⁰͍⁴̵〆*'
 
 global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
